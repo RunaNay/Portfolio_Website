@@ -1,51 +1,17 @@
-:root {
-  --primary-color: rgb(0, 0, 0);
-  --secondary-color: #0a0a0a;
-  --span-color: rgb(148, 4, 167);
-  --linkedin_button2-color: rgb(218, 154, 238);
-  --instagram-bg-color: rgb(218, 154, 238);
-  --instagram-bg-hover-color: #00ffff;
-  --body-bg-color: rgb(220, 233, 242);
-  --nav-a-color: rgb(255, 113, 206);
-  --nav-a-hover-bg-color: rgb(189, 143, 234);
-  --nav-a-visited-color: rgb(135, 32, 232);
-  --a-color: rgb(178, 117, 235);
-  --a-hover-color: rgb(85, 0, 255);
-  --a-visited-color: rgb(112, 20, 251);
-  --a-focus-color: rgb(129, 7, 243);
-  --a-active-color: #710da6;
-  --grid-container-bg-color: white;
-  --grid-container-color: black;
-  --flex-container-color: rgb(144, 0, 255);
-  --flex-item-color: aqua;
-  --flex-item1-color: #6a0888;
-  --flex-item2-color: #8904b1;
-  --flex-item3-color: #a901db;
-  --flex-item4-color: #cc2efa;
-  --text-color: #240b3b;
-  --linkedin-button-color: #cc2efa;
-  --font-weight-h1: 600;
-  --font-size-h1: 30px;
-  --font-size-nav-a: x-large;
-  --font-size-a: 36px;
-  --font-size-flexc: 20px;
-  --font-size-h1: 22px;
-}
-
 a {
-  color: var(--primary-color);
+  color: rgb(0, 0, 0);
 }
 h1 {
-  color: var(--secondary-color);
-  font-weight: var(--font-weight-h1);
-  font-size: var(--font-size-h1);
+  color: #0a0a0a;
+  font-weight: 600;
+  font-size: 22px;
   text-decoration: none;
   padding: 10px;
   margin: 50px;
 }
 
 span {
-  color: var(--span-color);
+  color: rgb(148, 4, 167);
 }
 
 .main-header {
@@ -59,7 +25,7 @@ span {
 }
 
 .linkedin_button2 {
-  background-color: var(--linkedin_button2-color);
+  background-color: rgb(218, 154, 238);
   text-decoration: none;
   padding: 10px;
   margin: 20px;
@@ -74,7 +40,7 @@ span {
 }
 
 .instagram_button {
-  background-color: var(--instagram-bg-color);
+  background-color: rgb(218, 154, 238);
   text-decoration: none;
   padding: 10px;
   margin: 20px;
@@ -86,7 +52,7 @@ span {
 }
 
 .instagram_button:hover {
-  background-color: var(--instagram-bg-hover-color);
+  background-color: #00ffff;
 }
 .main-header div {
   display: flex;
@@ -125,7 +91,7 @@ span {
 
 body {
   font-family: Agbalumo;
-  background-color: var(--body-bg-color);
+  background-color: rgb(220, 233, 242);
   background-image: radial-gradient(whitesmoke, rgb(94, 93, 98));
   margin: 0;
   padding: 0;
@@ -134,7 +100,7 @@ body {
 .nav {
   width: 100%;
   overflow: auto;
-  text-shadow: 1px 1px 2px black, 0 0 25px rgb(10, 10, 82), 0 0 5px darkblue;
+  text-shadow: 1px 1px 2px black, 0 0 25px rgb(206, 10, 255), 0 0 5px rgb(147, 25, 196);
 }
 
 ul {
@@ -153,8 +119,8 @@ li {
   padding: 30px 20px;
   text-decoration: none;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  font-size: var(--font-size-nav-a);
-  color: var(--nav-a-color);
+  font-size: x-large;
+  color: rgb(211, 59, 158);
   text-align: center;
   transition-property: background-color 1s, transform;
   transition-duration: 0.5s, 0.5s;
@@ -162,39 +128,39 @@ li {
 }
 
 .nav a:hover {
-  background-color: var(--nav-a-hover-bg-color);
+  background-color: rgb(189, 143, 234);
   transition: 0.5sek;
   text-transform: uppercase;
 }
 
 .nav a:visited {
-  color: var(--nav-a-visited);
+  color: undefined;
 }
 
 a {
-  font-size: var(--font-size-a);
-  color: var(--a-color);
+  font-size: 36px;
+  color: rgb(147, 30, 125);
   padding: 10px 20px;
 }
 
 a:hover {
   text-decoration: none;
-  color: var(--a-hover-color);
+  color: rgb(85, 0, 255);
 }
 
 a:visited {
   /* visited link */
-  color: var(--a-visited-color);
+  color: rgb(190 163 232);
 }
 
 a:focus {
   text-decoration: none;
-  color: var(--a-focus-color);
+  color: rgb(129, 7, 243);
 }
 
 a:active {
   /* selected link */
-  color: var(--a-active-color);
+  color: #710da6;
 }
 
 .New_portrait2 {
@@ -268,8 +234,8 @@ footer {
 }
 
 .grid_container .grid_item {
-  background-color: var(--grid-container-bg-color);
-  color: var(--grid-container-color);
+  background-color: white;
+  color: black;
   min-height: 100px;
   margin: 10px;
   text-align: center;
@@ -304,13 +270,13 @@ footer {
   display: flex;
   flex-direction: column;
 
-  font-size: var(--font-size-flexc);
+  font-size: 20px;
   font-weight: 500px;
-  color: var(--flex-container-color);
+  color: rgb(144, 0, 255);
 }
 .flex-item .worldoff {
   align-content: center;
-  color: var(--flex-item-color);
+  color: aqua;
   width: 10px;
   margin: 10px;
   text-align: center;
@@ -320,25 +286,25 @@ footer {
 }
 
 .flex-item1 {
-  color: var(--flex-item1-color);
+  color: #6a0888;
 }
 
 .flex-item2 {
-  color: var(--flex-item2-color);
+  color: #8904b1;
 }
 
 .flex-item3 {
-  color: var(--flex-item3-color);
+  color: #a901db;
 }
 
 .flex-item4 {
-  color: var(--flex-item4-color);
+  color: #cc2efa;
 }
 .text {
-  color: var(--text-color);
+  color: #e00ce7;
 }
 .linkedin_button {
-  color: var(--linkedin-button-color);
+  color: #cc2efa;
 }
 
 .grid__item:last-child {
@@ -361,7 +327,7 @@ footer {
     grid-row: auto / auto;
   }
   h1 {
-    font-size: var(--font-size-h1);
+    font-size: 22px;
   }
 }
 @media all and (min-width: 500px) and (max-width: 700px) {
